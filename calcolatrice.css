@@ -1,0 +1,91 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Light";
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: darkslategray;
+}
+
+.container{
+  width: 100%;
+  max-width: 230px;
+  background: #222222;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  border-radius: 5px;
+}
+
+.screen{
+  width: 100%;
+}
+
+.screen input{
+  width: 100%;
+  padding: 0.2rem 0.6rem;
+  font-size: 1.8rem;
+  text-align: right;
+  margin: 1rem 0;
+  font-weight: 600;
+  border-radius: 2px;
+  border: none;
+  background: #222222;
+}
+
+.cal_btn {
+  padding: 1rem;
+  text-align: center;
+}
+
+input[type="button"] {
+  font-size: 0.9rem;
+  color: #fff;
+  width: 24%;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin: 0.05rem;
+  background: #555555;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+}
+
+
+#equals{
+  width: 24%;
+  color: #17202a;
+  text-align: center;
+  background:#b3d4fc;
+
+}
+
+#result{
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background: #222222;
+  padding: 10px;
+  z-index: 1; /* Mi assicuro che l'elemento h1 sia in primo piano */
+  color: white;
+}
+
+.sas{
+  width: 131%;
+}
